@@ -1,0 +1,30 @@
+'''
+import math
+
+print (math.pow(2,3))
+
+print(math.ceil(2.5))
+print(math.trunc(2.5))
+
+with open("arquivo.txt","w")as arquivo:
+    arquivo.write("Teste correto, Buxado ao extremo")
+
+
+import os
+if os.path.exists("arquivo.txt"):
+    os.remove("arquivo.txt")
+else:
+    print("não existe. ")
+
+
+
+import calculadora
+
+x=int(input())
+
+print(calculadora.soma(             xs    ))
+print(calculadora.subtração(        10,5    ))
+print(calculadora.multiplicação(    10,5    ))
+print(calculadora.divisão(          10,5    ))
+
+'''
